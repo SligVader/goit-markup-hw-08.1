@@ -1,0 +1,37 @@
+:root {
+  --brand-color: #2196f3;
+  --font-color-one: #212121;
+  --font-color-two: #757575;
+  --font-color-three: rgba(255, 255, 255, 0.6);
+  --background-color-one: #2f303a;
+  --background-color-two: #ffffff;
+  --background-color-three: #f5f4fa;
+  --hover-color-one: #188ce8;
+  --icon-color-one: #afb1b8;
+  --items: 3;
+  --indent: 30px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+

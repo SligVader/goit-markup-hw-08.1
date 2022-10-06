@@ -1,0 +1,11 @@
+.section-customers__title,
+.section-galery__title,
+.section-team__title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--font-color-one);
+  margin-bottom: 50px;
+}

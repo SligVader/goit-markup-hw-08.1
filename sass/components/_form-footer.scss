@@ -1,0 +1,206 @@
+// .form-footer {
+//   width: 450px;
+//   min-height: 86px;
+
+//   @media screen and (min-width: 1200px) {
+//      width: 570px;
+//   height: 86px;}
+
+//   @media screen and (max-width: 1199px) {
+//   display: flex;
+//   flex-direction: column;
+//   justify-items: center;
+//   max-width: 450px;
+//   height: auto;
+
+// }
+
+//   &__btn:hover,
+//   &__btn:focus {
+//   background-color: var(--hover-color-one);
+// }
+// }
+
+// .form-footer__header {
+//   text-transform: uppercase;
+//   font-size: 14px;
+//   color: var(--background-color-two);
+//   margin-bottom: 20px;
+//   display: block;
+
+//   @media screen and (max-width: 1199px) {
+//     margin-bottom: 0;
+//   }
+
+// }
+
+// .form-footer__field {
+//   display: flex;
+
+//   @media screen and (max-width: 1199px){
+//   flex-direction: column;
+//   gap: 20px;
+//   justify-content: center;}
+
+//   & input {
+//   max-width: 358px;
+//   min-height: 50px;
+//   color: var(--background-color-two);
+//   padding-left: 16px;
+//   background-color: transparent;
+//   border: 1px solid rgba(255, 255, 255, 0.3);
+//   border-radius: 4px;
+//   outline: transparent;
+// }
+// }
+
+// .form-footer__btn {
+//   width: 200px;
+//   min-height: 50px;
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   border-radius: 4px;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.8;
+//   display: flex;
+//   padding-left: 48px;
+//   align-content: center;
+//   justify-content: center;
+//   align-items: center;
+//   letter-spacing: 0.06em;
+//   color: var(--background-color-two);
+//   background-color: var(--brand-color);
+//   border-color: transparent;
+//   cursor: pointer;
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   @media screen and (min-width: 1200px){
+//     margin-left: 12px;
+//   }
+// }
+
+// .form-footer__icon {
+//   fill: var(--background-color-two);
+//   margin-left: 20px;
+//   margin-right: 28px;
+//   min-width: 24px;
+// }
+
+.form-footer {
+  width: 570px;
+  height: 86px;
+
+  @media screen and (max-width: 1199px) {
+  max-width: 450px;
+  min-height: 86px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+  &__btn:hover,
+  &__btn:focus {
+  background-color: var(--hover-color-one);
+}
+}
+
+.form-footer__header {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--background-color-two);
+  margin-bottom: 20px;
+  display: block;
+
+  @media screen and (max-width: 1199px) {
+  margin-bottom: 0;
+}
+
+}
+
+.form-footer__field {
+  display: flex;
+
+  @media screen and (max-width: 1199px) {
+  max-width: 450px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+//   & input {
+//   width: 358px;
+//   height: 50px;
+//   color: var(--background-color-two);
+//   padding-left: 16px;
+//   background-color: transparent;
+//   border: 1px solid rgba(255, 255, 255, 0.3);
+//   border-radius: 4px;
+//   outline: transparent;
+// }
+}
+
+.form-footer__field input {
+  
+  height: 50px;
+  color: var(--background-color-two);
+  padding-left: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: transparent;
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+
+  }
+
+  @media screen and (max-width: 1199px) {
+    width: 100%;
+    max-width: 450px;
+
+  }
+
+
+}
+
+.form-footer__btn {
+  width: 200px;
+  min-height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  margin-left: 12px;
+  padding-left: 48px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color-two);
+  background-color: var(--brand-color);
+  border-color: transparent;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+@media screen and (max-width: 1199px) {
+  margin-left: 0;
+}
+
+}
+
+.form-footer__icon {
+  fill: var(--background-color-two);
+  margin-left: 20px;
+  margin-right: 28px;
+  min-width: 24px;
+}
+
+
+

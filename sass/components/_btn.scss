@@ -1,0 +1,26 @@
+.btn {
+  width: 200px;
+  min-height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color-two);
+  background-color: var(--brand-color);
+  border-color: transparent;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+  background-color: var(--hover-color-one);
+}
+}
+

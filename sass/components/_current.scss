@@ -1,0 +1,22 @@
+li > .current {
+  color: var(--brand-color);
+  position: relative;}
+
+@media screen and (min-width: 1200px) {
+  .current::after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: -1.5%;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--brand-color);
+
+    
+  }
+  
+}
+
+
